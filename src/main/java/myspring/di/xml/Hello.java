@@ -7,9 +7,9 @@ public class Hello {
 	Printer printer;
 	List<String> names;
 
-//	public Hello() {
-//		System.out.println(this.getClass().getName() + "생성자가 호출됨");
-//	}
+	public Hello() {
+		System.out.println(this.getClass().getName() + "생성자가 호출됨");
+	}
 
 	public Hello(String name, Printer printer) {
 		System.out.println(this.getClass().getName() + "Overloaded 생성자가 호출됨");
